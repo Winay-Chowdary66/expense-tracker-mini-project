@@ -1,0 +1,48 @@
+<!---Put your code here--->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" title="Home">Home</a></li>
+                <li><a href="./login.html" title="Login">Login</a></li>
+                <li><a href="./register.html" title="Register">Register</a></li>
+                <li class="current"><a href="./expense.html" title="Note Expense">Note Expense</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <h2>Add a new item:</h2>
+            <form action="#" method="post" id="expense-form">
+                <label for="type">Type:</label><select name="type" id="type">
+                    <option value="Card" label="Card"></option>
+                    <option value="Cash" label="Cash"></option>
+                    <option value="Cryptocoin" label="Cryptocoin"></option>
+                    <option value="other">other</option>
+                </select><br>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name" required="" placeholder="What did you spend on?">
+                <br>
+                <label for="date">Date:</label><br>
+                <input type="date" name="date" id="date" required="">
+                <br>
+                <label for="number">Amount:</label><br>
+                <input type="number" name="number" id="number" placeholder="How much?">
+                <br><button id="add-expense-btn">ADD A NEW EXPENSE</button>
+            </form>
+        </div>
+    </header>
+
+    <footer>
+        <p>Copyright &copy 2020 All rights received</p>
+    </footer>
+    </div>
+</body
